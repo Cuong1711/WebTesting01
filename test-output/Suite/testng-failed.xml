@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test run with chrome browser(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.nopcommerce.demo.TS_03_MyAccount">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="TC_01_updateCustomerInfo"/>
+          <include name="TC_03_changePasswordMyAccount"/>
+        </methods>
+      </class> <!-- com.nopcommerce.demo.TS_03_MyAccount -->
+    </classes>
+  </test> <!-- Test run with chrome browser(failed) -->
+</suite> <!-- Failed suite [Suite] -->
